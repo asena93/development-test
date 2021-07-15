@@ -49,17 +49,17 @@ Para buscar informações de um filme:
       		"genres": "Adventure|Children|Fantasy"
    	}
 
-## Tipos de busca(GET) e endpoints:
+### Tipos de busca(GET) e endpoints:
     
    É possível realizar a busca de filme por ID, Título e Gênero. Segue endpoints abaixo:
     
-# getByMovieId: Buscar filmes pelo ID
+### getByMovieId: Buscar filmes pelo ID
    	http://localhost:8080/movies/{movieId}
     
-# getByTitle: Buscar filmes pelo Título
+### getByTitle: Buscar filmes pelo Título
   	http://localhost:8080/movies/title/{title}
  
-# getByGenres: Buscar flmes pelo Gênero
+### getByGenres: Buscar flmes pelo Gênero
    	http://localhost:8080/movies/genres/{genres}
 
 OBS: Não é necessário na busca por título e gênero, inserir palavras inteiras, basta digitar letras que fazem referência a busca (exemlo de busca por título: Adv (Adventure)), pois os métodos irá retornar os filmes em que tenham essa referência e irá inclusive ignorar caso não esteja com letra maiúscula.
