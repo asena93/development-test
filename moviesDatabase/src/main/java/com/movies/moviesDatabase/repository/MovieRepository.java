@@ -1,4 +1,4 @@
-package com.movies.moviesDatabase.model.repository;
+package com.movies.moviesDatabase.repository;
 
 import java.util.List;
 
