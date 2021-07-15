@@ -1,6 +1,6 @@
 <h1 align="center">API Rest para uma base dados de filmes.</h1>
 
-<p align="center">Desenvolvi essa API rest para uma base de dados de filmes. Nessa API é possível cadastrar e atualizar dados de filmes, localizar filmes atráves do ID, Titulo ou Genêro e excluir.</p>
+<p align="center">Desenvolvi essa API rest para uma base de dados de filmes. Nessa API é possível cadastrar e atualizar dados de filmes, localizar filmes atráves do ID, Titulo ou Genêro e excluir filmes da base.</p>
 
 ### Request: POST (Create)
 
