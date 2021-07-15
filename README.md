@@ -11,8 +11,8 @@ Para cadastrar um filme:
    	Dados a serem inseridos:
     
    	{
-	"title": "Jumanji (1995)",
-	"genres": "Adventure|Children|Fantasy"
+		"title": "Jumanji (1995)",
+		"genres": "Adventure|Children|Fantasy"
    	}
     
 OBS: O ID do filme é inserido de forma automática e incrementado a cada cadastro de filme.
@@ -21,11 +21,11 @@ OBS: O ID do filme é inserido de forma automática e incrementado a cada cadast
     
    	Status: 201 Created
     
-   	{  
+  	{
       		"movieId": 2,
 		"title": "Jumanji (1995)",
 		"genres": "Adventure|Children|Fantasy"
-   	}
+	}
     
 ### Request: GET (Read)
 
