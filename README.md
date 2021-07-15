@@ -62,7 +62,7 @@ Para buscar informações de um filme:
 # getByGenres: Buscar flmes pelo Gênero
    	http://localhost:8080/movies/genres/{genres}
 
-OBS: Não é necessário na busca por título e gênero, inserir palavras inteiras, basta digitar letras que fazem referência a busca (exemlo de busca por título: Adv (Adventure)), pois os métodos irá retornar os filmes em tenham essa referência e irá inclusive ignorar caso não esteja com letra maiúscula.
+OBS: Não é necessário na busca por título e gênero, inserir palavras inteiras, basta digitar letras que fazem referência a busca (exemlo de busca por título: Adv (Adventure)), pois os métodos irá retornar os filmes em que tenham essa referência e irá inclusive ignorar caso não esteja com letra maiúscula.
 
 ### Request: PUT (update)
 
@@ -88,7 +88,7 @@ OBS: Não é necessário na busca por título e gênero, inserir palavras inteir
    
   	Acessar a URL: http://localhost:8080/movies/{movieId}
    
-OBS: A exclusão de filme, esta configurada para ser feita através do ID do filme.
+OBS: A exclusão de filme esta configurada para ser feita através do ID do filme.
 
 ### Response:
 
