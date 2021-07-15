@@ -11,5 +11,7 @@ import com.movies.moviesDatabase.model.Movie;
 public interface MovieRepository extends JpaRepository<Movie, Long> {
 	
 	public List<Movie> findAllByTitleContainingIgnoreCase(String title);
+	
+	public List<Movie> findAllByGenresContainingIgnoreCase(String genres);
 
 }

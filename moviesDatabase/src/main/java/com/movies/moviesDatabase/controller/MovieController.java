@@ -41,6 +41,11 @@ public class MovieController {
 	public ResponseEntity<List<Movie>> getByTitle(@PathVariable String title) {
 		return ResponseEntity.ok(repository.findAllByTitleContainingIgnoreCase(title));
 	}
+	
+	@GetMapping("/genres/{genres}")
+	public ResponseEntity<List<Movie>> getByGenres(@PathVariable String genres) {
+		return ResponseEntity.ok(repository.findAllByGenresContainingIgnoreCase(genres));
+	}
 
 	@PostMapping
 	public ResponseEntity<Movie> post(@RequestBody Movie movie) {
