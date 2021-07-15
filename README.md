@@ -22,7 +22,7 @@ OBS: O ID do filme é inserido de forma automática e incrementado a cada cadast
    	Status: 201 Created
     
   	{
-      		"movieId": 2,
+		"movieId": 2,
 		"title": "Jumanji (1995)",
 		"genres": "Adventure|Children|Fantasy"
 	}
